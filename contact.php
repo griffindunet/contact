@@ -91,13 +91,19 @@ $erreur = '<div class="alert alert-danger" role="alert">merci de remplir tout le
  <form id="contact" method="post" action="contact.php">
  		<h1> Contactez le webmaster</h1>
 
-          <p>Votre nom et prénom: <input type="text" name="nom" size="30" /></p>
-          <p>Votre email: <span style="color:#ff0000;">*</span>: <input type="text" name="email" size="30" /></p>
+            <p>Votre nom  <input type="text" name="nom" size="30" /></p>
+   <p>Votre prenom  <input type="text" name="prenom" size="30" /></p>
+
+     <p>Votre telephone  <input type="text" name="tel" size="30" /></p>
+
+          <p>Votre email: <span style="color:#ff0000;">*</span>: <input type="email" name="email" size="30" /></p>
+          <p> Votre sujet du mail : <input type="text" name="sujet" size="30"></p>
           <p>Message <span style="color:#ff0000;">*</span>:</p>
-          <textarea name="message" cols="60" rows="10"></textarea>
+          <textarea name="msg" cols="60" rows="10"></textarea>
 
           <p><input type="submit" name="submit" value="Envoyer" /></p>
           <br>  
+
 
 <?php 
 echo $erreur;
