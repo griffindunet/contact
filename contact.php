@@ -13,7 +13,7 @@ if(!empty($_POST['nom']) AND !empty($_POST['prenom']) AND !empty($_POST['email']
 {
 	
 
-$destinataire = 'remys95@gmail.com'; // Adresse email du webmaster (à personnaliser)
+$destinataire = 'remys95@gmail.com'; // Adresse email 
      $sujet ; // Titre de l'email
 
       $msg_mail = '<p> Nom : '.$nom.'</p> <p> prenom:'.$prenom.'</p> <p> tel : '.$tel.'</p> <p>email:'.$email.'</p><p> message:'.$msg.'</p> </body></html>';
